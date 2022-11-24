@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>border</title>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="heading">Конструкторы CSS</h1>
+    </header>
+    <section class="content-br">
+      <div class="br__properties">
+        <h2 class="br__heading">border-radius</h2>
+        <h3 class="br__range">Верхний левый угол</h3>
+        <input type="range" class="br__input-range br__input-range_up-left" min="0" max="100" value="0"
+          oninput="fun1()">
+        <input type="text" class="br__input-text br__input-text_up-left" value="0">
+        <h3 class="br__range">Верхний правый угол</h3>
+        <input type="range" class="br__input-range br__input-range_up-rigth" min="0" max="100" value="0"
+          oninput="fun1()">
+        <input type="text" class="br__input-text br__input-text_up-rigth" value="0">
+        <h3 class="br__range">Нижний правый угол</h3>
+        <input type="range" class="br__input-range br__input-range_down-rigth" min="0" max="100" value="0"
+          oninput="fun1()">
+        <input type="text" class="br__input-text br__input-text_down-rigth" value="0">
+        <h3 class="br__range">Нижний левый угол</h3>
+        <input type="range" class="br__input-range br__input-range_down-left" min="0" max="100" value="0"
+          oninput="fun1()">
+        <input type="text" class="br__input-text br__input-text_down-left" value="0">
+      </div>
+      <div class="content-br__block"></div>
+    </section>
+    <footer class="footer"></footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
